@@ -1,6 +1,7 @@
 # Prosthetic Cognition
 ### AI as Cognitive Prosthetic Through Mutual Accommodation
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18962893.svg)](https://doi.org/10.5281/zenodo.18962893)
 
 **Peter Salvato**
 Design Engineer | [petersalvato.com](https://petersalvato.com)
