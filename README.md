@@ -3,7 +3,6 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18962893.svg)](https://doi.org/10.5281/zenodo.18962893)
 
-**Source:** [github.com/PeterSalvato/prosthetic-cognition](https://github.com/PeterSalvato/prosthetic-cognition)
 
 **Peter Salvato**
 Design Engineer | [petersalvato.com](https://petersalvato.com)
@@ -56,7 +55,7 @@ The practitioner provides:
 - **Domain knowledge.** What does quality look like in this specific field?
 - **Judgment.** When two assessments conflict, which one governs?
 - **Values.** What matters, what doesn't, what's non-negotiable?
-- **Raw material.** Unstructured thinking, real stories, actual language, lived experience.
+- **Raw material (the pour).** Unstructured thinking, real stories, actual language, lived experience. The human half of the coupling depends on this material entering the system uncompressed: talk, dictate, answer questions. No requirement to organize or perform. The rawness is what makes the output belong to the maker.
 
 The model provides:
 - **Extended working memory.** Hold the full context of a three-year project across sessions.
@@ -73,9 +72,9 @@ Neither component produces quality output alone. The model without the practitio
 
 The quality of a prosthetic depends on the quality of the interface. A poorly fitted prosthetic fights the body it's attached to. A well-fitted one disappears into use.
 
-In human-AI cognitive coupling, the interface layer consists of purpose-built tools that translate between how the human naturally thinks and how the model processes. These tools are described in the [accommodation design framework](https://petersalvato.com/practice/accommodation-design/) (Salvato, 2026) and the [input inversion principle](https://petersalvato.com/practice/input-inversion/) (Salvato, 2026). The relevant points for this paper:
+In human-AI cognitive coupling, the interface layer consists of purpose-built tools that translate between how the human naturally thinks and how the model processes. These tools are described in the [accommodation design framework]https://petersalvato.com/practice/accommodation-design/) (Salvato, 2026) and the [input inversion principle]https://petersalvato.com/practice/input-inversion/) (Salvato, 2026). The relevant points for this paper:
 
-**The human side of the interface** removes friction from cognitive expression. The practitioner thinks out loud, dictates, brainstorms, contradicts themselves, changes direction. No formatting requirements. No structured prompts. No performance. The interface accepts raw cognitive output and preserves its full texture.
+**The human side of the interface** accommodates how the practitioner actually thinks. The practitioner thinks out loud, dictates, brainstorms, contradicts themselves, changes direction. No formatting requirements. No structured prompts. No performance. This is the pour: the human's contribution to the coupled system, captured in whatever form it naturally takes. Removing friction on input preserves the raw thinking, the natural voice, and the real architecture of the idea. The interface accepts raw cognitive output and preserves its full texture.
 
 **The model side of the interface** structures tasks for the model's processing reality. One objective at a time. Decomposed evaluation. Independent assessment dimensions. Context markers at cognitive turning points. The interface translates raw human thinking into input the model can process without degradation.
 
@@ -103,11 +102,11 @@ The pattern is: broken notebooks (thinking preserved, retrieval impossible) → 
 
 ### 5.2 The Coupling at Scale
 
-Since 2023 I have maintained continuous cognitive coupling with AI systems: 1,643 ChatGPT sessions of raw thinking, 700+ Claude Code sessions of implementation, and Gemini exports. The coupling produced a deployed professional site, a published methodology (accommodation design), and an open-source toolkit (SavePoint Syntax, FormWork). It was not planned as a research program. It accumulated naturally from treating the model as a thinking extension. I didn't assign it work. I thought with it.
+Since 2023 I have maintained continuous cognitive coupling with AI systems: three years of raw thinking across ChatGPT, Claude Code, and Gemini. The coupling produced a deployed professional site, a published methodology (accommodation design), and an open-source toolkit (SavePoint Syntax, FormWork). It was not planned as a research program. It accumulated naturally from treating the model as a thinking extension. I didn't assign it work. I thought with it.
 
-The key output is the accumulated cognitive state: a rich, evolving representation of how one practitioner thinks, stored in a format the extended system can access and process. Voice patterns extracted from conversation history let the system write in a register that matches how I actually communicate, verified as "unequivocally human-written" by third-party assessment. Knowledge traversal across the full corpus traces how ideas evolved across months, catching connections no keyword search could find.
+The key output is the accumulated cognitive state: a rich, evolving representation of how one practitioner thinks, stored in a format the extended system can access and process. Voice patterns extracted from conversation history let the system write in a register that matches how I actually communicate. Third-party blind assessment could not identify the output as AI-assisted. Knowledge traversal across the full corpus traces how ideas evolved across months, catching connections no keyword search could find.
 
-A tool couldn't do this. A tool processes what you give it in the moment. The prosthetic relationship accumulates cognitive state over time. The coupling improves because the accumulated corpus gives the tools more of my actual thinking to work with.
+A tool couldn't do this. A tool processes what you give it in the moment. The prosthetic relationship accumulates cognitive state over time. The coupling improves because the pour keeps growing: more unstructured thinking, more raw material for the tools to work with. The corpus exists because the system was designed to accept thinking as it actually happens, not as a polished deliverable.
 
 ### 5.3 The Interface Layer
 
@@ -163,13 +162,13 @@ This is why mass-market AI products feel like tools rather than extensions. They
 
 **The productive unit is the coupled system, not the model or the human.** Quality output comes from the coupling between human cognition and model processing. Evaluating the model in isolation (benchmarks, capability tests) misses the point. The relevant question is: how good is the coupled system?
 
-**Interface design is the high-value skill.** If the coupling determines quality, then the practitioners who build the best interfaces produce the best work. This shifts the skill profile from prompt engineering (optimizing input to the model) to cognitive interface design (optimizing the coupling between human and model).
+If the coupling determines quality, then interface design is the high-value skill. The skill profile shifts from prompt engineering (optimizing input to the model) to cognitive interface design (optimizing the coupling between human and model). The practitioners who build the best interfaces produce the best work.
 
 **Accumulated cognitive state is an asset.** The conversation corpus, the voice patterns, the knowledge graph, the evaluation criteria: these constitute a cognitive asset that appreciates over time. The longer and richer the coupling, the more the prosthetic extends. This has implications for practitioner independence: the cognitive asset is portable, not platform-dependent.
 
-**Delegation is a design choice with cognitive consequences.** Choosing agent-based delegation over prosthetic coupling is a choice about which cognitive capacities the practitioner exercises. The efficiency of delegation comes at the cost of the judgment, critical thinking, and domain expertise that only active cognitive engagement maintains.
+What are the cognitive consequences of delegation? Choosing agent-based delegation over prosthetic coupling is a choice about which cognitive capacities the practitioner exercises. The efficiency of delegation comes at the cost of the judgment, critical thinking, and domain expertise that only active cognitive engagement maintains.
 
-**The harness must fit the individual.** Generic AI interfaces produce generic results. The highest-quality coupling requires individualized interface components: voice patterns extracted from this person's actual speech, evaluation criteria drawn from this person's actual values, knowledge structures built from this person's actual thinking. Mass-market products cannot provide this. The practitioner builds it.
+Generic AI interfaces produce generic results. The highest-quality coupling requires individualized interface components: voice patterns extracted from this person's actual speech, evaluation criteria drawn from this person's actual values, knowledge structures built from this person's actual thinking. Mass-market products cannot provide this. The practitioner builds it.
 
 **The architecture extends to teams.** The cognitive coupling described in this paper operates between one practitioner and one AI system. The architecture does not require that constraint. Savepoint Syntax is a markup format. Any team member can drop savepoints into a shared project corpus. Each person's savepoints capture their own cognitive turning points, their own patterns of attention, their own domain perspective. The AI system operating across that shared corpus does what no individual participant can: it maps connections between savepoints from different people, tracks how one person's insight interacts with another's, and surfaces structural patterns that emerge only from the combined cognitive state.
 
@@ -195,7 +194,7 @@ Each tier builds on the previous one. The solo practice is running. The two-enti
 
 The AI field's two dominant framings, tool and agent, both miss the most productive relationship: cognitive extension through mutual accommodation.
 
-The model extends the practitioner's cognitive reach. The practitioner provides cognitive intent, judgment, and raw material. Purpose-built interfaces handle the coupling. The result is a hybrid cognitive system that produces output neither component could achieve independently.
+The model extends the practitioner's cognitive reach. The practitioner provides cognitive intent, judgment, and the pour: raw material captured with as little friction as possible. Purpose-built interfaces handle the coupling. The result is a hybrid cognitive system that produces output neither component could achieve independently.
 
 This is not a metaphor. Andy Clark's extended mind thesis describes it philosophically. The CHI 2025 research program studies it empirically. The bionic hand research demonstrates the mechanism physically. This paper documents it through three years of applied cognitive coupling that produced a deployed site, a published methodology, and an open-source toolkit.
 
