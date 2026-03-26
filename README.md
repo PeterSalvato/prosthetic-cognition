@@ -72,7 +72,7 @@ Neither component produces quality output alone. The model without the practitio
 
 The quality of a prosthetic depends on the quality of the interface. A poorly fitted prosthetic fights the body it's attached to. A well-fitted one disappears into use.
 
-In human-AI cognitive coupling, the interface layer consists of purpose-built tools that translate between how the human naturally thinks and how the model processes. These tools are described in the [accommodation design framework]https://petersalvato.com/practice/accommodation-design/) (Salvato, 2026) and the [input inversion principle]https://petersalvato.com/practice/input-inversion/) (Salvato, 2026). The relevant points for this paper:
+In human-AI cognitive coupling, the interface layer consists of purpose-built tools that translate between how the human naturally thinks and how the model processes. These tools are described in the [accommodation design framework]https://petersalvato.com/research/accommodation-design/) (Salvato, 2026) and the [input inversion principle]https://petersalvato.com/research/input-inversion/) (Salvato, 2026). The relevant points for this paper:
 
 **The human side of the interface** accommodates how the practitioner actually thinks. The practitioner thinks out loud, dictates, brainstorms, contradicts themselves, changes direction. No formatting requirements. No structured prompts. No performance. This is the pour: the human's contribution to the coupled system, captured in whatever form it naturally takes. Removing friction on input preserves the raw thinking, the natural voice, and the real architecture of the idea. The interface accepts raw cognitive output and preserves its full texture.
 
@@ -241,4 +241,4 @@ You are free to share and adapt this material for any purpose, including commerc
 
 ---
 
-*Peter Salvato is a design engineer based in Fort Lauderdale, FL. He studied Visual Communication at the School of Visual Arts, taught special education in Brooklyn, NY, and spent twelve years building the front end of an enterprise recruiting platform. His AI governance work applies twenty-five years of practice across construction, print production, pedagogy, enterprise software, and brand systems to the question of what AI systems actually need to produce quality output. His work is published at [petersalvato.com](https://petersalvato.com).*
+*Peter Salvato is a design engineer based in Fort Lauderdale, FL. He studied Visual Communication at the School of Visual Arts, taught special education in Brooklyn, NY, and spent thirteen years building the front end of an enterprise recruiting platform. His AI governance work applies twenty-five years of practice across construction, print production, pedagogy, enterprise software, and brand systems to the question of what AI systems actually need to produce quality output. His work is published at [petersalvato.com](https://petersalvato.com).*
