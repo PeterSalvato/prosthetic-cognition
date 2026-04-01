@@ -1,11 +1,16 @@
 # A Different Kind of Harness
 ### AI as Cognitive Prosthetic Through Mutual Accommodation
 
+I carried sketchbooks and journals for years. I'd write things down, draw, take notes, work through problems on paper. Then I'd never find it again. The notebook had no retrieval system. The thinking was preserved but inaccessible.
+
+AI gave me a retrieval system. After three years of continuous daily use, the relationship is closer to a cognitive prosthetic than a tool: the model extends my reach (memory, parallel evaluation, pattern matching across years of notes) while I provide the direction and judgment. This paper formalizes that framing.
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18962893.svg)](https://doi.org/10.5281/zenodo.18962893)
 
+**Source:** [github.com/PeterSalvato/prosthetic-cognition](https://github.com/PeterSalvato/prosthetic-cognition)
 
 **Peter Salvato**
-Design Engineer | [petersalvato.com](https://petersalvato.com)
+Design Engineer | [petersalvato.com](https://petersalvato.com/)
 March 2026
 
 ---
@@ -26,15 +31,15 @@ The AI field offers practitioners two mental models for their relationship with 
 
 Both framings assume a clean boundary between the human and the system. In the tool model, cognition happens inside the human and the tool processes the output. In the agent model, cognition happens inside both systems independently, with the human supervising.
 
-There is a third relationship that neither framing captures: the model as an extension of the practitioner's own cognitive process. A prosthetic. Something you rig to yourself that extends what you can reach.
+There is a third relationship that neither framing captures: the model as an extension of the practitioner's own cognitive process. The way I actually use it is closer to rigging something to myself that extends what I can reach, the way a climbing harness extends where you can safely operate. You're still doing the work. The extension just lets you do it in places you couldn't sustain on your own.
 
 ---
 
 ## 2. The Extended Mind
 
-Andy Clark and David Chalmers proposed the extended mind thesis in 1998: cognitive processes are not confined to the brain. When external resources are reliably available, consistently used, and directly integrated into cognitive workflow, they become part of the cognitive system itself. A notebook that someone consults automatically and trusts implicitly is not a tool they use to think. It is part of how they think.
+Andy Clark and David Chalmers proposed the extended mind thesis in 1998: cognitive processes are not confined to the brain. When external resources are reliably available, consistently used, and directly integrated into cognitive workflow, they become part of the cognitive system itself. A notebook that someone consults automatically and trusts implicitly becomes part of how they think.
 
-Clark returned to this thesis in 2025, writing in Nature Communications that generative AI represents the clearest case yet for extended cognition: "It is our basic nature to build hybrid thinking systems." He argues that humans are "natural-born cyborgs," defined not by biological boundaries but by the full mosaic of resources they integrate into their thinking. The extended mind is not a philosophical curiosity. It is a description of how cognition already works.
+Clark returned to this thesis in 2025, writing in Nature Communications that generative AI represents the clearest case yet for extended cognition: "It is our basic nature to build hybrid thinking systems." He argues that humans are "natural-born cyborgs," defined not by biological boundaries but by the full mosaic of resources they integrate into their thinking. The extended mind describes how cognition already works.
 
 The CHI 2025 Tools for Thought Workshop (Yokohama, April 2025) convened 56 researchers to bridge the science of how AI affects human cognition with the design practice of building AI tools that augment it. The workshop identified a critical design challenge: AI systems that merely automate cognitive tasks can atrophy the capacities they replace, while systems designed as cognitive extensions can strengthen the practitioner's own thinking by operating at the boundary between what the human holds and what the system extends.
 
@@ -48,14 +53,14 @@ A prosthetic limb does not replace the person. It extends the body's capability 
 
 University of Utah researchers demonstrated this empirically with an AI-enhanced bionic hand (Nature Communications, 2025). When the AI handled grip adjustment autonomously based on sensor data, study participants showed greater grip precision, greater grip security, and less mental effort. The human provided intent (reach for this object). The AI handled the fine motor execution. The interface (sensor array plus neural network) coupled them.
 
-The same relationship describes the most productive form of human-AI cognitive work.
+That same relationship describes what I think is the most productive form of human-AI cognitive work.
 
 The practitioner provides:
 - **Cognitive intent.** What am I trying to understand, build, or evaluate?
 - **Domain knowledge.** What does quality look like in this specific field?
 - **Judgment.** When two assessments conflict, which one governs?
 - **Values.** What matters, what doesn't, what's non-negotiable?
-- **Raw material (the pour).** Unstructured thinking, real stories, actual language, lived experience. The human half of the coupling depends on this material entering the system uncompressed: talk, dictate, answer questions. No requirement to organize or perform. The rawness is what makes the output belong to the maker.
+- **Raw material.** Unstructured thinking, real stories, actual language, lived experience. The human half of the coupling depends on this material entering the system uncompressed: talk, dictate, answer questions. No requirement to organize or perform. The rawness is what makes the output belong to the maker.
 
 The model provides:
 - **Extended working memory.** Hold the full context of a three-year project across sessions.
@@ -64,7 +69,7 @@ The model provides:
 - **Production capacity.** Generate, revise, and iterate at a speed that matches the pace of thinking.
 - **Consistency.** Apply constraints (voice rules, structural requirements, evaluation criteria) without fatigue.
 
-Neither component produces quality output alone. The model without the practitioner generates competent mediocrity. The practitioner without the model cannot process the volume, maintain the consistency, or hold the full context simultaneously. The coupled system does what neither can do independently.
+Neither component produces quality output alone. The model on its own generates competent mediocrity: correct enough, tonally dead. And I can't hold three years of conversations in working memory, or evaluate a page across six dimensions at once, or maintain voice consistency across thirty pages without fatigue. The coupling is where the quality comes from.
 
 ---
 
@@ -72,15 +77,15 @@ Neither component produces quality output alone. The model without the practitio
 
 The quality of a prosthetic depends on the quality of the interface. A poorly fitted prosthetic fights the body it's attached to. A well-fitted one disappears into use.
 
-In human-AI cognitive coupling, the interface layer consists of purpose-built tools that translate between how the human naturally thinks and how the model processes. These tools are described in the [accommodation design framework]https://petersalvato.com/research/accommodation-design/) (Salvato, 2026) and the [input inversion principle]https://petersalvato.com/research/input-inversion/) (Salvato, 2026). The relevant points for this paper:
+In human-AI cognitive coupling, the interface layer consists of purpose-built tools that translate between how the human naturally thinks and how the model processes. These tools are described in the [accommodation design framework](https://petersalvato.com/research/accommodation-design/) (Salvato, 2026) and the [input inversion principle](https://petersalvato.com/research/input-inversion/) (Salvato, 2026). The relevant points for this paper:
 
-**The human side of the interface** accommodates how the practitioner actually thinks. The practitioner thinks out loud, dictates, brainstorms, contradicts themselves, changes direction. No formatting requirements. No structured prompts. No performance. This is the pour: the human's contribution to the coupled system, captured in whatever form it naturally takes. Removing friction on input preserves the raw thinking, the natural voice, and the real architecture of the idea. The interface accepts raw cognitive output and preserves its full texture.
+**The human side of the interface** accommodates how the practitioner actually thinks. The practitioner thinks out loud, dictates, brainstorms, contradicts themselves, changes direction. No formatting requirements. No structured prompts. No performance. This is the human's contribution to the coupled system, captured in whatever form it naturally takes. Removing friction on input preserves the raw thinking, the natural voice, and the real architecture of the idea. The interface accepts raw cognitive output and preserves its full texture.
 
 **The model side of the interface** structures tasks for the model's processing reality. One objective at a time. Decomposed evaluation. Independent assessment dimensions. Context markers at cognitive turning points. The interface translates raw human thinking into input the model can process without degradation.
 
 **The coupling is bidirectional.** The practitioner adapts their workflow to the model's capabilities (checking in at context boundaries, decomposing evaluation criteria, marking important moments). The model's output is shaped by the practitioner's cognitive patterns (voice constraints, domain-specific criteria, value hierarchies). Over time, the coupling tightens. The practitioner develops intuitions for what the model handles well and what it doesn't. The system's accumulated context (conversation history, voice samples, evaluation patterns) becomes increasingly specific to this practitioner's cognitive signature.
 
-This is what Clark means by a hybrid thinking system. The boundaries blur. The practitioner stops experiencing the model as a separate tool they operate and starts experiencing it as an extension of their own cognitive process.
+This is what Clark means by a hybrid thinking system. After enough time, the boundary between "my thinking" and "the system's processing" stops feeling meaningful. I don't operate the model the way I operate a tool. I think with it, the way I used to think with a sketchbook, except it can hold more and find things I forgot I said.
 
 ---
 
@@ -88,7 +93,7 @@ This is what Clark means by a hybrid thinking system. The boundaries blur. The p
 
 ### 5.1 The Pattern Before the Technology
 
-The cognitive prosthetic relationship predates AI. I carried sketchbooks and journals for years. I'd write things down, draw, take notes, work through problems on paper. Then I'd never find it again. The notebook had no retrieval system. The thinking was preserved but inaccessible. The prosthetic was broken at the interface.
+The cognitive prosthetic relationship predates AI. The sketchbooks I carried for years were a broken prosthetic: thinking preserved, retrieval impossible. The interface was the failure point.
 
 In May 2025 I wrote a whitepaper called "Cognitive Durability," framing the problem as "the protective structure that preserves the WHY behind ideas." I cited Hutchins on distributed cognition and cognitive scaffolding in learning theory. I was already working in the HCI space, building the argument that thinking needs structural preservation to remain useful over time.
 
@@ -98,15 +103,15 @@ In July 2025, I asked the question the CHI 2025 Tools for Thought Workshop was o
 
 Before the digital version existed, I designed a handwritten savepoint for physical journals: XML-style tags written by hand, visually distinct from the surrounding handwriting. You can flip through pages and spot them because the tag structure has a uniform shape that regular notes don't. It's a visual retrieval system for a physical medium. The same interface design problem, solved with a pen.
 
-The pattern is: broken notebooks (thinking preserved, retrieval impossible) → handwritten savepoint tags (visual scanning, the analog analog to grep) → digital Savepoint Syntax (machine-readable, searchable) → AI coupling (the full prosthetic, where the system can read the tags and reconstruct context). Four generations of the same design problem. Each one is a cognitive prosthetic. Each one improved at the interface. The AI is the most capable, but the relationship is lifelong.
+The pattern is: broken notebooks (thinking preserved, retrieval impossible) to handwritten savepoint tags (visual scanning, the analog analog to grep) to digital Savepoint Syntax (machine-readable, searchable) to AI coupling (the full prosthetic, where the system can read the tags and reconstruct context). Four generations of the same design problem. Each one improved at the interface. The AI version is the most capable, but the instinct to preserve thinking and make it retrievable goes back to the first sketchbook. I've been trying to solve the same retrieval problem since I was carrying sketchbooks around Brooklyn.
 
 ### 5.2 The Coupling at Scale
 
-Since 2023 I have maintained continuous cognitive coupling with AI systems: three years of raw thinking across ChatGPT, Claude Code, and Gemini. The coupling produced a deployed professional site, a published methodology (accommodation design), and an open-source toolkit (SavePoint Syntax, FormWork). It was not planned as a research program. It accumulated naturally from treating the model as a thinking extension. I didn't assign it work. I thought with it.
+Since 2023 I have maintained continuous cognitive coupling with AI systems: three years of raw thinking across ChatGPT, Claude Code, and Gemini. The coupling produced a deployed professional site, a published methodology (accommodation design), and an open-source toolkit (SavePoint Syntax, FormWork). It was not planned as a research program. It accumulated naturally from treating the model as a thinking extension. I wasn't assigning it work. I was thinking with it.
 
-The key output is the accumulated cognitive state: a rich, evolving representation of how one practitioner thinks, stored in a format the extended system can access and process. Voice patterns extracted from conversation history let the system write in a register that matches how I actually communicate. Third-party blind assessment could not identify the output as AI-assisted. Knowledge traversal across the full corpus traces how ideas evolved across months, catching connections no keyword search could find.
+The key output is the accumulated cognitive state: a rich, evolving representation of how one practitioner thinks, stored in a format the extended system can access and process. Voice patterns extracted from conversation history let the system write in a register that matches how I actually communicate. Informal review has consistently read the output as human-written rather than AI-assisted. Knowledge traversal across the full corpus traces how ideas evolved across months, catching connections no keyword search could find.
 
-A tool couldn't do this. A tool processes what you give it in the moment. The prosthetic relationship accumulates cognitive state over time. The coupling improves because the pour keeps growing: more unstructured thinking, more raw material for the tools to work with. The corpus exists because the system was designed to accept thinking as it actually happens, not as a polished deliverable.
+A tool can't do this. A tool processes what you give it in the moment. The prosthetic relationship accumulates cognitive state over time. The coupling improves because the corpus keeps growing: more unstructured thinking, more raw material for the tools to work with. The corpus exists because the system was designed to accept thinking as it actually happens, not as a polished deliverable.
 
 ### 5.3 The Interface Layer
 
@@ -138,9 +143,9 @@ The tools I built are each a response to a specific delegation failure. Voice sa
 
 The one category where delegation works is mechanical infrastructure: repo cleanup, file management, build tasks. I can hand those off and review the result. The difference is that mechanical work has objectively verifiable outcomes (the file moved, the build passed). Creative and intellectual work has judgment-dependent outcomes. When judgment leaves the loop, the output degrades in ways that are hard to measure but impossible to miss.
 
-The prosthetic framing addresses this directly by keeping the practitioner in the cognitive loop. The model extends reach, not replaces judgment. Evaluation stays with the practitioner. Direction stays with the practitioner. The model never sets its own goals or assesses its own quality. It processes, extends, and produces. The practitioner thinks, directs, and judges.
+The prosthetic framing addresses this by keeping the practitioner in the cognitive loop. The model extends reach. Evaluation stays with the practitioner. Direction stays with the practitioner. The model processes, extends, and produces. The practitioner thinks, directs, and judges.
 
-This is the difference between a prosthetic and an autonomous system. A prosthetic extends what you can do. An autonomous system does it for you. The long-term cognitive consequences are opposite: the prosthetic strengthens the capacities it extends (by exercising them at greater scale and speed), while delegation atrophies them (by removing the exercise).
+The prosthetic framing keeps the practitioner's capacities active because they're still being exercised, just at greater scale and speed. Delegation removes the exercise. Over time, the cognitive consequences diverge: the practitioner who stays in the loop gets sharper at the work the system extends, while the one who delegates gets further from the judgment that made the delegation safe in the first place.
 
 The bionic hand research illustrates this precisely. The AI handled grip adjustment. The human handled intent and motor planning. The result was greater precision with less mental effort. The AI didn't replace the human's motor planning. It extended it into a finer-grained execution space than the human could reach alone. The human's planning capacity stayed active. The AI amplified its reach.
 
@@ -154,13 +159,13 @@ AI as cognitive prosthetic works the same way. You still think. You still judge.
 
 The harness metaphor is precise in one more way: fit matters. A climbing harness that doesn't fit your body is dangerous. A cognitive extension that doesn't fit your thinking is counterproductive. The interface layer (the tools that handle coupling) must be designed for the specific practitioner's cognitive patterns, not for a generic user. Voice sampling, knowledge traversal, evaluation criteria: all of these are individualized to the practitioner. The prosthetic is custom-fitted.
 
-This is why mass-market AI products feel like tools rather than extensions. They're one-size-fits-all harnesses. They work for generic tasks. They fail at the tight coupling that produces the real work. The practitioner who builds their own interface layer gets a custom fit. The coupling tightens. The harness disappears into use.
+This is why mass-market AI products feel like tools rather than extensions. They're one-size-fits-all harnesses. They work for generic tasks. They fail at the tight coupling that produces the real work. The practitioner who builds their own interface layer gets a custom fit, and over time the coupling tightens enough that the tools stop feeling like separate steps in a workflow. I don't think about running the voice pipeline anymore. I just write and check the output against how I actually talk.
 
 ---
 
 ## 8. Implications
 
-**The productive unit is the coupled system, not the model or the human.** Quality output comes from the coupling between human cognition and model processing. Evaluating the model in isolation (benchmarks, capability tests) misses the point. The relevant question is: how good is the coupled system?
+**The productive unit is the coupled system.** Quality output comes from the coupling between human cognition and model processing, and evaluating the model in isolation (benchmarks, capability tests) misses the point. The relevant question is: how good is the coupled system?
 
 If the coupling determines quality, then interface design is the high-value skill. The skill profile shifts from prompt engineering (optimizing input to the model) to cognitive interface design (optimizing the coupling between human and model). The practitioners who build the best interfaces produce the best work.
 
@@ -192,15 +197,13 @@ Each tier builds on the previous one. The solo practice is running. The two-enti
 
 ## 9. Conclusion
 
-The AI field's two dominant framings, tool and agent, both miss the most productive relationship: cognitive extension through mutual accommodation.
+The AI field's two dominant framings, tool and agent, describe relationships I've tried and moved past. The most productive relationship I've found is cognitive extension through mutual accommodation.
 
-The model extends the practitioner's cognitive reach. The practitioner provides cognitive intent, judgment, and the pour: raw material captured with as little friction as possible. Purpose-built interfaces handle the coupling. The result is a hybrid cognitive system that produces output neither component could achieve independently.
+The model extends the practitioner's cognitive reach. The practitioner provides cognitive intent, judgment, and raw material captured with as little friction as possible. Purpose-built interfaces handle the coupling. The result is a hybrid cognitive system that produces output neither component could achieve independently.
 
-This is not a metaphor. Andy Clark's extended mind thesis describes it philosophically. The CHI 2025 research program studies it empirically. The bionic hand research demonstrates the mechanism physically. This paper documents it through three years of applied cognitive coupling that produced a deployed site, a published methodology, and an open-source toolkit.
+This is not a metaphor. Clark's extended mind thesis describes it philosophically. The CHI 2025 research program studies it empirically. The bionic hand research demonstrates the mechanism physically. And I've been doing it for three years, producing a deployed site, a published methodology, and an open-source toolkit in the process.
 
-The question for practitioners is not "how do I use AI?" or "what should I delegate to AI?" It is: "how do I build the interface that lets AI extend my thinking?"
-
-Build the interface. That's the whole practice. Make it fit how you actually think.
+The interface layer is the practice. Purpose-built tools, fitted to how one practitioner actually thinks, extending cognitive reach into space the mind alone can't sustain. The tools are still changing. The coupling is still tightening. This paper is one output of a process that keeps producing new ones.
 
 ---
 
@@ -209,11 +212,11 @@ Build the interface. That's the whole practice. Make it fit how you actually thi
 The following open-source tools implement the cognitive coupling described in this paper:
 
 - **[FormWork](https://petersalvato.com/systems/formwork/)**: The accommodation design process. Coordination harness for all tools during a project.
-- **[SavePoint Syntax](https://github.com/PeterSalvato/Savepoint.Protocol)**: Context preservation at cognitive turning points (v3.1)
+- **[SavePoint Syntax](https://github.com/PeterSalvato/Savepoint.Protocol)**: Context preservation at cognitive turning points (v3.2)
 - **[LensArray](https://petersalvato.com/systems/lensarray/)**: Decomposed evaluation with practitioner-extracted lenses
 - **[Skills Architecture](https://github.com/PeterSalvato/formwork)**: Interface layer for cognitive coupling (voice, knowledge, evaluation, task decomposition)
 
-The production site [petersalvato.com](https://petersalvato.com) was compiled through the cognitive coupling described in this paper.
+The production site [petersalvato.com](https://petersalvato.com/) was compiled through the cognitive coupling described in this paper.
 
 ---
 
@@ -229,7 +232,7 @@ The production site [petersalvato.com](https://petersalvato.com) was compiled th
 - Riedl, C. et al. (2024). "Quantifying the Impact of Large Language Models on Collective Opinion Dynamics." arXiv:2308.03313.
 - Salvato, P. (2026). "AI Governance as Accommodation Design." DOI: 10.5281/zenodo.18941231.
 - Salvato, P. (2026). "Input Inversion: Why Unstructured Human Thinking Produces Better AI Output." DOI: 10.5281/zenodo.18962881.
-- Salvato, P. (2025). Savepoint Syntax v3.1. [github.com/PeterSalvato/Savepoint.Protocol](https://github.com/PeterSalvato/Savepoint.Protocol)
+- Salvato, P. (2025–2026). Savepoint Syntax v3.2. [github.com/PeterSalvato/Savepoint.Protocol](https://github.com/PeterSalvato/Savepoint.Protocol)
 
 ---
 
@@ -241,4 +244,4 @@ You are free to share and adapt this material for any purpose, including commerc
 
 ---
 
-*Peter Salvato is a design engineer based in Fort Lauderdale, FL. He studied Visual Communication at the School of Visual Arts, taught special education in Brooklyn, NY, and spent thirteen years building the front end of an enterprise recruiting platform. His AI governance work applies twenty-five years of practice across construction, print production, pedagogy, enterprise software, and brand systems to the question of what AI systems actually need to produce quality output. His work is published at [petersalvato.com](https://petersalvato.com).*
+*Peter Salvato is a design engineer based in Fort Lauderdale, FL. He studied Visual Communication at the School of Visual Arts, taught special education in Brooklyn, NY, and spent thirteen years building the front end of an enterprise recruiting platform. His AI governance work applies twenty-five years of practice across construction, print production, pedagogy, enterprise software, and brand systems to the question of what AI systems actually need to produce quality output. His work is published at [petersalvato.com](https://petersalvato.com/).*
